@@ -1,6 +1,6 @@
 # Two-step Task
 
-This program runs a two-step decision task, as described in Daw et al., as well as the simplified version described in xxxx.
+This program runs a two-step decision task, as described in (Daw et al., 2011), as well as the simplified version described in (Akam et al., 2015).
 
 Results are output to a CSV file.
 
@@ -22,3 +22,7 @@ optional arguments:
   --quiet               Do not print history or running totals
 
 ```
+
+Daw, N. D., Gershman, S. J., Seymour, B., Dayan, P., & Dolan, R. J. (2011). Model-based influences on humans’ choices and striatal prediction errors. Neuron, 69(6), 1204–1215. https://doi.org/10.1016/j.neuron.2011.02.027
+
+Akam, T., Costa, R., & Dayan, P. (2015). Simple plans or sophisticated habits? State, transition and learning interactions in the two-step task. PLOS Computational Biology, 11(12), e1004648. https://doi.org/10.1371/journal.pcbi.1004648
