@@ -43,11 +43,7 @@ class Brownian(NextStateGenerator):
         return next_val
 
     def initial_probs(self):
-        vals = np.empty((2,2))
-        for i in range(2):
-            for j in range(2):
-                vals[i,j] = random_initial(self.lower_bound, self.upper_bound)
-        return vals
+        return np.random.random((2,2)) * (self.upper_bound - self.lower_bound) + self.lower_bound
 
 class Blocked(NextStateGenerator):
     def __init__(self, params):
